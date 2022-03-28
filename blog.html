@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+             
+                <div class="nav-links" id="nav-Links">
+                    <i class="fa fa-times" onclick="hiddeMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Our Certificate & Online Programs For 2021</h1>
+        </section>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="img/certificate.jpg">
+                    <h2>Our Certificate & Online Programs For 2021</h2>
+                </div>
+                <div class="blog-right"></div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="footer">
+          
+            <p>University point prohibits discrimination against any individual on the basis of 
+                race, color, religion, sex, age, national origin, physical or mental 
+                disability, sexual orientation, gender identity, genetic information, 
+                military service, pregnancy or pregnancy-related condition, or because 
+                of marital, parental, or veteran status,</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> </p>
+        </section>
+        <!-------javascript for Toggle Menu------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
